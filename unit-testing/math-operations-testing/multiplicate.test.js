@@ -1,4 +1,4 @@
-const math = require('../algorithms.js');
+const math = require('../math-operations.js');
 
 test('21 multiply 3 equals 63', () => {
   expect(math.multiplication(21, 3)).toBe(63);
