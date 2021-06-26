@@ -1,0 +1,21 @@
+{
+  "name": "unit-testing-algorithms",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "algorithms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "math",
+    "operations",
+    "algorithms",
+    "testing",
+    "jest"
+  ],
+  "author": "grantge",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.5"
+  }
+}
