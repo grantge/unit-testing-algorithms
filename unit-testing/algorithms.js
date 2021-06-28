@@ -3,8 +3,10 @@
 function palindrome(str) {
   const result = str.split('').reverse().join('');
 
-  return str === result;
+  return result;
 }
+
+module.exports.palindrome = palindrome;
 
 // Integer reversal
 
@@ -14,6 +16,8 @@ function reverseInteger(num) {
   return parseInt(result) * Math.sign(num);
 }
 
+module.exports.reverseInteger = reverseInteger;
+
 // String Reversal
 
 function reverseString(str) {
@@ -21,6 +25,8 @@ function reverseString(str) {
   array.reverse();
   return array.join('');
 }
+
+module.exports.reverseString = reverseString;
 
 // Finding Vowels
 
@@ -36,3 +42,5 @@ function vowelsFind(str) {
 
   return count;
 }
+
+module.exports.vowelsFind = vowelsFind;
